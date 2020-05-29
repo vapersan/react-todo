@@ -41,7 +41,7 @@ const AddList = ({colors}) => {
                                 />
                             </svg>
                         ),
-                        name: 'Добавить список'
+                        name: 'Добавить проект'
                     }
                 ]}
             />
@@ -53,7 +53,7 @@ const AddList = ({colors}) => {
                         alt="Close button"
                         className="add-list__popup-close-btn"
                     />
-                    <input className="field" type="text" placeholder="Название списка"/>
+                    <input className="field" type="text" placeholder="Название проекта"/>
                     <div className="add-list__popup-colors">
                         {colors.map(color => (
                             <Badge
