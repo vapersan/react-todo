@@ -1,6 +1,25 @@
 {
-  "lists": [],
-  "tasks": [],
+  "lists": [
+    {
+      "name": "Производственная практика",
+      "colorId": 6,
+      "id": 1
+    }
+  ],
+  "tasks": [
+    {
+      "listId": 1,
+      "text": "Написать отчёт",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "listId": 1,
+      "text": "Проработать пункт с архитектурой",
+      "completed": false,
+      "id": 2
+    }
+  ],
   "colors": [
     {
       "id": 1,
